@@ -50,10 +50,26 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="{{url('admin/artikel')}}" class="nav-link {{checkRouteActive('admin/artikel')}}">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Artikel
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="{{url('admin/kategori')}}" class="nav-link {{checkRouteActive('admin/kategori')}}">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Kategori
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{url('admin/komentar')}}" class="nav-link {{checkRouteActive('admin/komentar')}}">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Komentar
               </p>
             </a>
           </li>

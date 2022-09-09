@@ -119,9 +119,8 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item active"><a class="nav-link" href="{{ url('home') }}">Home</a></li>
-                        <li class="dropdown">
-                            <a href="{{ url('/shop') }}" class="nav-link dropdown-toggle arrow" data-toggle="{{ url('shop') }}">SHOP</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('shop') }}">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('blog') }}">Blog</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('contact-us') }}">Contact Us</a></li>
                     </ul>
                 </div>

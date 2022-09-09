@@ -16,5 +16,9 @@ Class HomeController extends controller{
     function showKategori(){
         return view('admin.kategori');
     }
+
+    function showArtikel(){
+        return view('admin.artikel');
+    }
     
 }

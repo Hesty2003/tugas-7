@@ -72,27 +72,6 @@
                                 <li>
                                     <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT80
                                 </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Vegetables
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Vegetables
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Vegetables
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Vegetables
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT30
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now 
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -119,10 +98,9 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item active"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
-                        <li class="dropdown">
-                            <a href="{{ url('/shop') }}" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="{{ url('shop') }}">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('blog') }}">Blog</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('contact-us') }}">Contact Us</a></li>
                     </ul>
                 </div>
